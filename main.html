@@ -15,6 +15,7 @@
             margin: 0;
             text-align: center;
             font-family: Helvetica, sans-serif; /* Added font-family */
+            flex-direction: column; /* Added to stack content vertically */
         }
         a {
             color: #00ffff;
@@ -23,6 +24,10 @@
         ul {
             list-style-type: none;
             padding: 0;
+        }
+        footer {
+            margin-top: 20px; /* Added margin for spacing */
+            font-size: 18px; /* Set font size for footer */
         }
     </style>
 </head>
@@ -50,5 +55,8 @@
             <span style="transition: color 0.3s; display: inline-block; margin-left: 5px; color: #00ffff;" onmouseover="this.style.color='blue'" onmouseout="this.style.color='#00ffff'">➔</span>
         </li>
     </ul>
+    <!-- <footer>
+        made by<a href="https://amaanbhati.tech" style="color: blue;"> amaan</a>
+    </footer> -->
 </body>
 </html>
